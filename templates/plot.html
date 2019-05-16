@@ -1,0 +1,15 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<link rel="stylesheet" href={{cdn_css | safe}} type="text/css">
+<script type="text/javascript" src={{cdn_js | safe}}></script>
+<head>
+    <title>About</title>
+</head>
+<body>
+    <h1>Google</h1>
+    <p>Candlestick for Google</p>
+</body>
+{{script | safe}}
+{{div | safe}}
+{%endblock%}
